@@ -1,4 +1,4 @@
-# 🤖 Enterprise AI AgentOS — Multi-Agent Business Intelligence Platform
+# 🤖 Enterprise AI AgentOS - Multi-Agent Business Intelligence Platform
 
 > **Production-grade multi-agent AI platform** combining RAG, SQL analytics, and autonomous tool-calling to automate complex enterprise workflows.
 
