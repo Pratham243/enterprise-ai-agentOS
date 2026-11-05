@@ -1,0 +1,77 @@
+# =============================================================================
+# Enterprise AI AgentOS — .gitignore
+# =============================================================================
+
+# --- Environment & secrets ----------------------------------------------------
+# Never commit real credentials. Only .env.example (placeholders) is tracked.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials.json
+
+# --- Virtual environments -----------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python bytecode & caches -------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Testing, coverage & tool caches ------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# --- Jupyter -----------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Build & packaging artifacts ----------------------------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# --- SQLite (local development) -----------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Logs ---------------------------------------------------------------------
+*.log
+logs/
+
+# --- IDE / editor files -------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Operating system files ---------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Frontend (future) --------------------------------------------------------
+node_modules/

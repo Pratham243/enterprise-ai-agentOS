@@ -1,0 +1,15 @@
+.venv/
+.git/
+.env
+*.db
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+tests/
+docs/
+data/
+*.md
+.dockerignore
+Dockerfile
+docker-compose.yml
+infrastructure/
